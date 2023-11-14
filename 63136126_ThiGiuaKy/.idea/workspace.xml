@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="df585a67-9eda-4e29-b699-fc6affa23319" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/app/src/androidTest/java/vn/huynhnamvu/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/app/src/main/java/vn/huynhnamvu/Activity_Cau1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/app/src/main/java/vn/huynhnamvu/Activity_Cau2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/app/src/main/java/vn/huynhnamvu/Activity_Cau3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/app/src/main/java/vn/huynhnamvu/Activity_Cau4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/app/src/main/java/vn/huynhnamvu/Avatar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/app/src/main/java/vn/huynhnamvu/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/app/src/main/java/vn/huynhnamvu/MonAn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/app/src/main/java/vn/huynhnamvu/MonAnAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/app/src/main/res/drawable/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/app/src/main/res/drawable/ru.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/app/src/main/res/drawable/thai.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/app/src/main/res/drawable/us.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/app/src/main/res/drawable/vn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/app/src/main/res/layout/activity_cau1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/app/src/main/res/layout/activity_cau2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/app/src/main/res/layout/activity_cau3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/app/src/main/res/layout/activity_cau4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/app/src/main/res/layout/item_monan.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/app/src/main/res/mipmap-anydpi/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/app/src/test/java/vn/huynhnamvu/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../63136126_ThiGiuaKy2/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Custom_list_view_2/app/src/main/java/com/huynhnamvu/custom_list_view_2/MonAn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Custom_list_view_2/app/src/main/res/layout/item_monan.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intent2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intent2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intent2/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intent2/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intent2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intent2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intent2/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intent2/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intent2/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intent2/app/src/androidTest/java/com/huynhnamvu/intent2/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intent2/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intent2/app/src/main/java/com/huynhnamvu/intent2/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intent2/app/src/main/java/com/huynhnamvu/intent2/ResultActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intent2/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intent2/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intent2/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intent2/app/src/main/res/layout/activity_result.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intent2/app/src/main/res/mipmap-anydpi/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intent2/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intent2/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intent2/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intent2/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intent2/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intent2/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intent2/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intent2/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intent2/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intent2/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intent2/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intent2/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intent2/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intent2/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intent2/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intent2/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intent2/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intent2/app/src/test/java/com/huynhnamvu/intent2/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intent2/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intent2/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intent2/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intent2/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intent2/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intent2/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intent2/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Last_intent/app/src/main/java/com/huynhnamvu/last_intent/MainActivity2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Last_intent/app/src/main/res/layout/activity_main2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intent_vd2/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intent_vd2/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intent_vd2/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intent_vd2/app/src/androidTest/java/com/huynhnamvu/intent_vd2/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intent_vd2/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intent_vd2/app/src/main/java/com/huynhnamvu/intent_vd2/Input.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intent_vd2/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intent_vd2/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intent_vd2/app/src/main/res/layout/activity_input.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intent_vd2/app/src/main/res/mipmap-anydpi/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intent_vd2/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intent_vd2/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intent_vd2/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intent_vd2/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intent_vd2/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intent_vd2/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intent_vd2/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intent_vd2/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intent_vd2/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intent_vd2/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intent_vd2/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intent_vd2/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intent_vd2/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intent_vd2/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intent_vd2/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intent_vd2/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intent_vd2/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intent_vd2/app/src/test/java/com/huynhnamvu/intent_vd2/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Intent_test/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Intent_test/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Intent_test/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Intent_test/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Intent_test/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Intent_test/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Intent_test/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Intent_test/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Intent_test/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Intent_test/app/src/androidTest/java/com/huynhnamvu/intent_test/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Intent_test/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Intent_test/app/src/main/java/com/huynhnamvu/intent_test/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Intent_test/app/src/main/java/com/huynhnamvu/intent_test/SecondActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Intent_test/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Intent_test/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Intent_test/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Intent_test/app/src/main/res/layout/activity_second.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Intent_test/app/src/main/res/mipmap-anydpi/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Intent_test/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Intent_test/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Intent_test/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Intent_test/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Intent_test/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Intent_test/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Intent_test/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Intent_test/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Intent_test/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Intent_test/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Intent_test/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Intent_test/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Intent_test/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Intent_test/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Intent_test/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Intent_test/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Intent_test/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Intent_test/app/src/test/java/com/huynhnamvu/intent_test/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Intent_test/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Intent_test/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Intent_test/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Intent_test/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Intent_test/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Intent_test/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Intent_test/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ListViewSimple/app/src/main/java/com/huynhnamvu/listviewsimple/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ListViewSimple/app/src/main/java/com/huynhnamvu/listviewsimple/MainActivity.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2XYLEVWcTvTyV39kp4FU0KZZThB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "android.gradle.sync.needed": "true",
+    "cidr.known.project.marker": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df585a67-9eda-4e29-b699-fc6affa23319" name="Changes" comment="" />
+      <created>1698800957146</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698800957146</updated>
+    </task>
+    <servers />
+  </component>
+</project>
