@@ -88,5 +88,5 @@
     }
     ```
     ***Khi người dùng thực hiện tìm kiếm***
-    ![image](https://cdn.discordapp.com/attachments/1096764946089508975/1184076394850947213/search.png?ex=658aa813&is=65783313&hm=8a96a15cbece95da7dfa3c332aca7e255dc1bdef6d051069c24d8fccf0ca14ea&)
+![image](https://cdn.discordapp.com/attachments/1096764946089508975/1184076394850947213/search.png?ex=658aa813&is=65783313&hm=8a96a15cbece95da7dfa3c332aca7e255dc1bdef6d051069c24d8fccf0ca14ea&)
 
