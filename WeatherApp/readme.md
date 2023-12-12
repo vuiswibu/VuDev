@@ -21,9 +21,8 @@
         apiInterface = retrofit.create(IApiInterface.class);
         Call<WeatherApp> call = apiInterface.getWeatherData(cityName, "fb816b46903d5871219d34d23cf4433c", "metric");
     ```
-
-    ***Trang web***
  ![image](https://cdn.discordapp.com/attachments/1096764946089508975/1184077318583496754/web.png?ex=658aa8ef&is=657833ef&hm=41b9e188c7c4402bc5f86ed114a24a9810a8f92c391cf763f5af916cf46ad806&)
+ ***Trang web***
 
  * Binding dữ liệu
     ```java
@@ -87,6 +86,6 @@
         });
     }
     ```
-    ***Khi người dùng thực hiện tìm kiếm***
 ![image](https://cdn.discordapp.com/attachments/1096764946089508975/1184076394850947213/search.png?ex=658aa813&is=65783313&hm=8a96a15cbece95da7dfa3c332aca7e255dc1bdef6d051069c24d8fccf0ca14ea&)
+    ***Khi người dùng thực hiện tìm kiếm***
 
