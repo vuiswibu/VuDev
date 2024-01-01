@@ -1,4 +1,4 @@
-package com.huynhnamvu.weatherapp;
+package com.huynhnamvu.weatherapp.Main_processing;
 
 public class Wind {
     private int deg;
