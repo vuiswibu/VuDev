@@ -1,4 +1,4 @@
-package com.huynhnamvu.weatherapp.Main_processing;
+package com.huynhnamvu.weatherapp.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 
+import com.huynhnamvu.weatherapp.Main_processing.MainActivity;
 import com.huynhnamvu.weatherapp.R;
 
 public class SplashActivity extends AppCompatActivity {

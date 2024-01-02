@@ -21,18 +21,6 @@
         app:lottie_loop="true"
         app:lottie_rawRes="@raw/sun" />
 
-<!--    <Button
-        android:id="@+id/infoPage"
-        android:text="1"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.924"
-        app:layout_constraintStart_toEndOf="@+id/city_name"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.441"></Button>-->
-
     <TextView
         android:id="@+id/city_name"
         android:layout_width="wrap_content"
@@ -45,7 +33,7 @@
         android:textColor="@color/black"
         android:textSize="28sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintHorizontal_bias="0.482"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -361,6 +349,4 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </FrameLayout>
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>

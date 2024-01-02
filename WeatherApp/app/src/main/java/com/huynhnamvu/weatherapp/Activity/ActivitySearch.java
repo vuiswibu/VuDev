@@ -1,6 +1,7 @@
-package com.huynhnamvu.weatherapp.AutoCompleteSearch;
+package com.huynhnamvu.weatherapp.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,10 +9,8 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
-import android.widget.Toast;
 
 import com.huynhnamvu.weatherapp.R;
-import com.huynhnamvu.weatherapp.Saved_info.SavedCity;
 
 public class ActivitySearch extends AppCompatActivity {
 
@@ -21,6 +20,10 @@ public class ActivitySearch extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search);
+
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         autoCompleteTextView = findViewById(R.id.autoCompleteTextView);
         cities = Cities.getCities();
@@ -39,4 +42,5 @@ public class ActivitySearch extends AppCompatActivity {
             }
         });
     }
+
 }

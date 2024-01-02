@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.TextView;
 
 import java.text.SimpleDateFormat;
@@ -20,7 +19,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 import com.huynhnamvu.weatherapp.R;
-import com.huynhnamvu.weatherapp.Saved_info.SavedCity;
+import com.huynhnamvu.weatherapp.Activity.SavedCity;
 import com.huynhnamvu.weatherapp.databinding.ActivityMainBinding;
 
 
@@ -28,57 +27,49 @@ import com.huynhnamvu.weatherapp.databinding.ActivityMainBinding;
 public class MainActivity extends AppCompatActivity {
     private IApiInterface apiInterface;
     private ActivityMainBinding binding;
-    Button button;
+    private String cName;
     TextView txt;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        txt = findViewById(R.id.city_name);
-
-
         binding = ActivityMainBinding.inflate(getLayoutInflater());
+        txt = findViewById(R.id.city_name);
         setContentView(binding.getRoot());
+
+        //Khởi tạo SharedPreferences
         SharedPreferences sp = getSharedPreferences("cityDb", MODE_PRIVATE);
         SharedPreferences.Editor editor = sp.edit();
 
-        SharedPreferences prefs = getSharedPreferences("cityDb", MODE_PRIVATE);
         Intent intent = getIntent();
+
         if (intent != null) {
             String receivedString = intent.getStringExtra("keyString");
             if (receivedString != null) {
                 editor.putString("exampleKey", receivedString);
                 editor.apply();
-                if (prefs.contains("exampleKey"))
+                if (sp.contains("exampleKey"))
                 {
-                    String value = prefs.getString("exampleKey", "Shanghai");
+                    String value = sp.getString("exampleKey", "Nha Trang");
+                    cName = value;
                     fetchWeatherData(value);
-                } else {
-                    fetchWeatherData("Shanghai");
                 }
-
-            }
-            else {
-                fetchWeatherData("Shanghai");
             }
         }
-        else {
-            fetchWeatherData("Shanghai");
-        }
-
-
-
-/*        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-*//*                String value = prefs.getString("exampleKey", "Ha Noi");*//*
-*//*                Intent i = new Intent(MainActivity.this, clear.class);*//*
-*//*                Bundle myBundle = new Bundle();
-                myBundle.putString("ccity",value);
-                i.putExtra("dataFromMain", myBundle);*//*
-*//*                startActivity(i);*//*
+        if (sp.contains("exampleKey")){
+            String value = sp.getString("exampleKey", "Nha Trang");
+            if (value == null)
+            {
+                cName = "Nha Trang";
+                fetchWeatherData("Nha Trang");
             }
-        });*/
+            else
+            {
+                cName = value;
+                fetchWeatherData(value);}
+            }
+        else
+            fetchWeatherData("Nha Trang");
     }
     public void chuyenPage(View view)
     {
@@ -128,13 +119,11 @@ public class MainActivity extends AppCompatActivity {
                     binding.cityName.setText(cityName);
                     binding.day.setText(dayName(System.currentTimeMillis()));
                     binding.date.setText(date());
-
                     changeImage(condition);
                 }
             }
             @Override
             public void onFailure(Call<WeatherApp> call, Throwable t) {
-                // Xử lý khi có lỗi xảy ra
             }
         });
     }
@@ -149,7 +138,6 @@ public class MainActivity extends AppCompatActivity {
     }
     public static String dayName(long timeStamp) {
         SimpleDateFormat sdf = new SimpleDateFormat("EEEE", Locale.getDefault());
-//        sdf.setTimeZone(TimeZone.getDefault(timeStamp * 1000));
         return sdf.format(new Date());
     }
     private void changeImage(String condition) {

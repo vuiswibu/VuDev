@@ -1,23 +1,21 @@
-package com.huynhnamvu.weatherapp.Saved_info;
+package com.huynhnamvu.weatherapp.Activity;
+
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.lifecycle.LiveData;
-import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.Observer;
-import androidx.lifecycle.viewmodel.CreationExtras;
 
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.huynhnamvu.weatherapp.AutoCompleteSearch.ActivitySearch;
 import com.huynhnamvu.weatherapp.Data;
 import com.huynhnamvu.weatherapp.DataAdapter;
 import com.huynhnamvu.weatherapp.DataDAO;
@@ -27,7 +25,6 @@ import com.huynhnamvu.weatherapp.R;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.CountDownLatch;
 
 public class SavedCity extends AppCompatActivity {
     TextView txt;
@@ -42,20 +39,25 @@ public class SavedCity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.saved_city);
         txt = findViewById(R.id.Def_City);
+
+        //Truy xuất vào dữ liệu trong SharedPreferences
+        SharedPreferences sp = getSharedPreferences("cityDb", MODE_PRIVATE);
+        String value = sp.getString("exampleKey", "Nha Trang");
+
+        Toolbar toolbar1 = findViewById(R.id.tool);
+        setSupportActionBar(toolbar1);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         //Du lieu tu trang tim kiem
         Intent myIntent = getIntent();
         Bundle myBundle = myIntent.getBundleExtra("dataFromSearch");
 
-
+        txt.setText(value);
         if (myBundle != null) {
             String pName = myBundle.getString("nameCheck");
-            List<Data> adapterDataList = adapter.getDataList();
-            for (Data data : adapterDataList) {
-                String cityName = data.getName();
-                if (cityName.equals(pName)) {
-                    Log.d(cityName, "1" );
-                }
-            }
+            Data placeName = new Data();
+            placeName.setName(pName);
+            new Thread(() -> dataDAO.insertUser(placeName)).start();
         }
         //Truyen du lieu
         database = MyAppDatabase.getInstance(this);
@@ -112,17 +114,7 @@ public class SavedCity extends AppCompatActivity {
                 return true; // Đảm bảo không xử lý sự kiện click ngắn (nếu có)
             }
         });
-
-/*        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent back = new Intent(SavedCity .this, MainActivity.class);
-                startActivity(back);
-            }
-        });*/
     }
-
-
     public void toSearchPage(View view)
     {
         Intent s = new Intent(this, ActivitySearch.class);
