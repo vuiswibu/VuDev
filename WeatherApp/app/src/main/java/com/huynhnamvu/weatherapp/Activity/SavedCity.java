@@ -115,11 +115,20 @@ public class SavedCity extends AppCompatActivity {
             }
         });
     }
+
+    //Chuyển trang
     public void toSearchPage(View view)
     {
         Intent s = new Intent(this, ActivitySearch.class);
         startActivity(s);
     }
+    private void chuyenTrang(String cityName) {
+        String myString = cityName;
+        Intent intent = new Intent(this, MainActivity.class);
+        intent.putExtra("keyString", myString);
+        startActivity(intent);
+    }
+
     private void getTheChoosenCity(int position) {
         LiveData<List<Data>> userData = dataDAO.getAllData();
         userData.observe(this, new Observer<List<Data>>() {
@@ -132,13 +141,6 @@ public class SavedCity extends AppCompatActivity {
                 }
             }
         });
-    }
-
-    private void chuyenTrang(String cityName) {
-        String myString = cityName;
-        Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("keyString", myString);
-        startActivity(intent);
     }
 
     private void getDataFromDataDAO(int position) {

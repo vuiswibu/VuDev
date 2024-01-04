@@ -1,5 +1,4 @@
 package com.huynhnamvu.weatherapp.Main_processing;
-import com.huynhnamvu.weatherapp.Main_processing.WeatherApp;
 
 import retrofit2.Call;
 import retrofit2.http.GET;
